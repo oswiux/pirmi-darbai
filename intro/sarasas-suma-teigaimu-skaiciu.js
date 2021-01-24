@@ -13,3 +13,16 @@ console.log(positiveSum([1, -2, 3, 4, 5]), 13);
 console.log(positiveSum([]),0);
 console.log(positiveSum([-1, -2, -3, -4, -5]), 0);
 console.log(positiveSum([-1, 2, 3, 4, -5]), 9);
+
+// suma skaiciu visu is eilutes
+
+
+function bybiene(x) {
+    sum = 0 ;
+    for (let i = 0; i < x.length; i++)
+            sum += x[i];
+    return sum;
+}
+
+console.log(bybiene([1, 2, 3, 4]));
+
