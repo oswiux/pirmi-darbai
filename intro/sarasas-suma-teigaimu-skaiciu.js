@@ -1,3 +1,4 @@
+
 // susumuoti teigiami skaiciai is sarasu
 
 function positiveSum(arr) {
@@ -26,3 +27,14 @@ function bybiene(x) {
 
 console.log(bybiene([1, 2, 3, 4]));
 
+// pakelti skaciu juo kartotiniu
+function pakeltiKvadratu (skaicius, kartotinis) {
+    const rezultatas = skaicius ** kartotinis;
+    return rezultatas
+    }
+    
+    console.log(pakeltiKvadratu(3, 2));
+    console.log(pakeltiKvadratu(4, 5));
+    console.log("...................................");
+
+   
