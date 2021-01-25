@@ -1,4 +1,4 @@
-```javascript
+
 console.log("...............");
 function sudetis(x){
     sum = 0 ;
@@ -8,4 +8,3 @@ function sudetis(x){
 }
 
 console.log(sudetis([1, 3, 3, 4, 5]), 15);
-```
